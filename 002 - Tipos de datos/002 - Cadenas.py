@@ -1,3 +1,5 @@
+# Cadenas de texto (str)
+
 miGrupoFavorito = "Metallica"
 comentario = "la mejor banda de rock"
 print("Mi grupo favorito es: " + miGrupoFavorito + " " + comentario)
