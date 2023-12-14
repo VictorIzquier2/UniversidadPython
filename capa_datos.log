@@ -1,121 +1,105 @@
-01:07:04 13/12/2023 [logger_base.py:38] 🐛 : Mensaje a nivel debug
-01:07:04 13/12/2023 [logger_base.py:39] 🌐 : Mensaje a nivel de info
-01:07:04 13/12/2023 [logger_base.py:40] 🚨 : Mensaje a nivel de warning
-01:07:04 13/12/2023 [logger_base.py:41] ❌ : Mensaje a nivel de error
-01:07:04 13/12/2023 [logger_base.py:42] 🚫 : Mensaje a nivel crítico
-01:13:00 13/12/2023 [Persona.py:47] 🐛 : Persona id: 1 [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:13:00 13/12/2023 [Persona.py:50] 🐛 : Persona id: None [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:13:00 13/12/2023 [Persona.py:53] 🐛 : Persona id: 1 [Nombre: None, Apellido: None, Email: None]
-01:26:41 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000001E21A499470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-
-01:28:07 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000001128F6A5470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:28:07 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x000001128F3ADC40; closed: 0>
-01:37:35 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000001D3D9221470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:37:35 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x000001D3D91BF5A0; closed: 0>
-01:37:35 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 1 [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:37:35 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-01:37:35 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-01:37:35 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-01:37:35 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-01:37:35 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-01:44:20 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x0000022B824ED470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:44:20 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x0000022B8248B3E0; closed: 0>
-01:44:20 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 1 [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:44:20 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-01:44:20 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-01:44:20 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-01:44:20 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-01:44:20 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-01:45:28 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x00000238C930D470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:45:28 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x00000238C92AB3E0; closed: 0>
-01:45:28 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 1 [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:45:28 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-01:45:28 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-01:45:28 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-01:45:28 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-01:45:28 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-01:45:51 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x00000145F21BD470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:45:51 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x00000145F215B3E0; closed: 0>
-01:45:51 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 1 [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:45:51 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-01:45:51 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-01:45:51 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-01:45:51 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-01:45:51 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-01:46:11 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000002BD8715D470; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:46:11 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x000002BD870FB3E0; closed: 0>
-01:46:11 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 1 [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:46:11 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-01:46:11 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-01:46:11 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-01:46:11 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-01:46:11 13/12/2023 [PersonaDAO.py:46] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-01:47:32 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000002A8E25CD580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:47:32 13/12/2023 [PersonaDAO.py:31] 🐛 : Persona insertada: Persona id: None [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-01:47:32 13/12/2023 [PersonaDAO.py:47] 🐛 : Personas insertadas: 1
-01:47:32 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x000002A8E256B3E0; closed: 0>
-01:47:32 13/12/2023 [PersonaDAO.py:52] 🐛 : Persona id: 1 [Nombre: Juan, Apellido: Perez, Email: jperez@mail.com]
-01:47:32 13/12/2023 [PersonaDAO.py:52] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-01:47:32 13/12/2023 [PersonaDAO.py:52] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-01:47:32 13/12/2023 [PersonaDAO.py:52] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-01:47:32 13/12/2023 [PersonaDAO.py:52] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-01:47:32 13/12/2023 [PersonaDAO.py:52] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-01:47:32 13/12/2023 [PersonaDAO.py:52] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]s
-01:51:20 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x00000200AB0ED580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:51:20 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x00000200AB08B3E0; closed: 0>
-01:51:20 13/12/2023 [PersonaDAO.py:31] 🐛 : Persona insertada: Persona id: None [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-01:51:20 13/12/2023 [PersonaDAO.py:47] 🐛 : Personas insertadas: 1
-01:58:42 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000001AD9954D580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-01:58:42 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x000001AD994EF3E0; closed: 0>
-01:58:42 13/12/2023 [PersonaDAO.py:40] 🐛 : Persona actualizada: Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
-01:58:42 13/12/2023 [PersonaDAO.py:58] 🐛 : Personas actualizadas: 1
-02:00:09 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000002574614D580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-02:00:09 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x00000257460EB4C0; closed: 0>
-02:00:09 13/12/2023 [PersonaDAO.py:41] 🐛 : Persona actualizada: Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:59] 🐛 : Personas actualizadas: 1
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 14 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 15 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:00:09 13/12/2023 [PersonaDAO.py:64] 🐛 : Persona id: 16 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:06:25 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x0000021158DBD580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-02:06:25 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x0000021158D5B4C0; closed: 0>
-02:06:25 13/12/2023 [PersonaDAO.py:51] 🐛 : Objeto eliminado: Persona id: 16 [Nombre: None, Apellido: None, Email: None]
-02:06:25 13/12/2023 [PersonaDAO.py:69] 🐛 : Personas eliminadas: 1
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 14 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:06:25 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 15 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:06:32 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x000001C6A695D580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-02:06:32 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x000001C6A68FB4C0; closed: 0>
-02:06:32 13/12/2023 [PersonaDAO.py:51] 🐛 : Objeto eliminado: Persona id: 15 [Nombre: None, Apellido: None, Email: None]
-02:06:32 13/12/2023 [PersonaDAO.py:69] 🐛 : Personas eliminadas: 1
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:06:32 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 14 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
-02:06:40 13/12/2023 [Conexion.py:19] 🐛 : Conexión realizada con éxito: <connection object at 0x00000231DFF6D580; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
-02:06:40 13/12/2023 [Conexion.py:32] 🐛 : Se abrió correctamente el cursor: <cursor object at 0x00000231DFF0B4C0; closed: 0>
-02:06:40 13/12/2023 [PersonaDAO.py:51] 🐛 : Objeto eliminado: Persona id: 14 [Nombre: None, Apellido: None, Email: None]
-02:06:40 13/12/2023 [PersonaDAO.py:69] 🐛 : Personas eliminadas: 1
-02:06:40 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
-02:06:40 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
-02:06:40 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
-02:06:40 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
-02:06:40 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
-02:06:40 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
-02:06:40 13/12/2023 [PersonaDAO.py:74] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
+23:18:39 14/12/2023 [logger_base.py:38] 🐛 : Mensaje a nivel debug
+23:18:39 14/12/2023 [logger_base.py:39] 🌐 : Mensaje a nivel de info
+23:18:39 14/12/2023 [logger_base.py:40] 🚨 : Mensaje a nivel de warning
+23:18:39 14/12/2023 [logger_base.py:41] ❌ : Mensaje a nivel de error
+23:18:39 14/12/2023 [logger_base.py:42] 🚫 : Mensaje a nivel crítico
+23:38:53 14/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x000001B70869C0E0>
+23:38:53 14/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000001B7089DD7A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+23:38:53 14/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000001B7089DD8B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+23:52:52 14/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000016C51A928A0>
+23:52:52 14/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000016C51D71690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+23:52:52 14/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000016C51D71690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+23:52:52 14/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000016C51D71690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:03:48 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x00000174FCD63380>
+00:03:48 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000174FD041690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:03:48 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000174FD041690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:03:48 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000174FD041690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:03:48 15/12/2023 [Conexion.py:49] 🐛 : Todas las conexiones fueron cerradas: <psycopg2.pool.SimpleConnectionPool object at 0x00000174FCD63380>
+00:04:40 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000028BE473C7D0>
+00:04:40 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000028BE4AD1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:04:40 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000028BE4AD1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:04:40 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000028BE4AD1690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:04:40 15/12/2023 [Conexion.py:49] 🐛 : Todas las conexiones fueron cerradas: True
+00:16:57 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:16:57 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x00000217582D3740>
+00:16:57 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000021759D1D7A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:16:57 15/12/2023 [CursorDelPool.py:28] 🐛 : Dentro del bloque with
+00:16:57 15/12/2023 [CursorDelPool.py:30] 🐛 : [(3, 'Carlos', 'Lara', 'clara@mail.com'), (2, 'Ivonne', 'Gutiérrez', 'igutierrez@mail.com'), (8, 'Maria', 'Esparza', 'mesparza@mail.com'), (9, 'Roberto', 'Vaquero', 'rvaquero@mail.com'), (12, 'Alex', 'Rojas', 'arojas@mail.com'), (13, 'Pedro', 'Najera', 'pnajera@mail.com'), (1, 'Juan Carlos', 'Juarez', 'cjjuarez@mail.com')]
+00:16:57 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:16:57 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:16:57 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000021759D1D7A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:28:49 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:28:49 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x000002A70F758800>
+00:28:49 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000002A7116817A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:28:49 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:28:49 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:28:49 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x000002A7116817A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:28:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
+00:28:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
+00:28:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
+00:28:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
+00:28:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
+00:28:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
+00:28:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
+00:29:30 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:29:30 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x000001DF3EACFD40>
+00:29:30 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000001DF3EDF18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:29:30 15/12/2023 [PersonaDAO.py:31] 🐛 : Persona insertada: Persona id: None [Nombre: Ramón, Apellido: Ramírez, Email: rramirez@mail.com]
+00:29:30 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:29:30 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:29:30 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x000001DF3EDF18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:29:30 15/12/2023 [PersonaDAO.py:56] 🐛 : Personas insertadas: 1
+00:29:30 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:29:30 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000001DF3EDF18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:29:30 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:29:30 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:29:30 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x000001DF3EDF18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
+00:29:30 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 17 [Nombre: Ramón, Apellido: Ramírez, Email: rramirez@mail.com]
+00:30:19 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:30:19 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000028C1D982B70>
+00:30:19 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000028C1D9918B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:19 15/12/2023 [PersonaDAO.py:39] 🐛 : Persona actualizada: Persona id: 17 [Nombre: Lucía, Apellido: Luca, Email: lluca@mail.com]
+00:30:19 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:30:19 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:30:19 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000028C1D9918B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:19 15/12/2023 [PersonaDAO.py:61] 🐛 : Personas actualizadas: 1
+00:30:19 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:30:19 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000028C1D9918B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:19 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:30:19 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:30:19 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000028C1D9918B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
+00:30:19 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 17 [Nombre: Lucía, Apellido: Luca, Email: lluca@mail.com]
+00:30:49 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:30:49 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x000001A42F39D9A0>
+00:30:49 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000001A42F3E18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:49 15/12/2023 [PersonaDAO.py:48] 🐛 : Objeto eliminado: Persona id: 17 [Nombre: None, Apellido: None, Email: None]
+00:30:49 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:30:49 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:30:49 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x000001A42F3E18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:49 15/12/2023 [PersonaDAO.py:66] 🐛 : Personas eliminadas: 1
+00:30:49 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:30:49 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000001A42F3E18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:49 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:30:49 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:30:49 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x000001A42F3E18B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 1 [Nombre: Juan Carlos, Apellido: Juarez, Email: cjjuarez@mail.com]
+00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 2 [Nombre: Ivonne, Apellido: Gutiérrez, Email: igutierrez@mail.com]
+00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 3 [Nombre: Carlos, Apellido: Lara, Email: clara@mail.com]
+00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 8 [Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com]
+00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
+00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
+00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
