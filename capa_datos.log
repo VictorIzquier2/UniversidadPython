@@ -103,3 +103,121 @@
 00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 9 [Nombre: Roberto, Apellido: Vaquero, Email: rvaquero@mail.com]
 00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 12 [Nombre: Alex, Apellido: Rojas, Email: arojas@mail.com]
 00:30:49 15/12/2023 [PersonaDAO.py:71] 🐛 : Persona id: 13 [Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com]
+00:55:28 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:55:28 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x000002046423A600>
+00:55:28 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000204661C58B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:55:28 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:55:28 15/12/2023 [CursorDelPool.py:19] ❌ : Ocurrió una excepción, se hace rollback: relation "usuario" does not exist
+LINE 1: SELECT * FROM usuario ORDER BY id_usuario
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>. <traceback object at 0x00000204661D7740>
+00:55:28 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000204661C58B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:58:49 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:58:49 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x00000203CA7A0740>
+00:58:49 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000203CAB518B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:58:49 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:58:49 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:58:49 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000203CAB518B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:59:01 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:59:01 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000017B09A7B890>
+00:59:01 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000017B09DD19C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:59:01 15/12/2023 [UsuarioDAO.py:29] 🐛 : Usuario insertado: Usuario id: None [ Nombre de usuario: hematocritico, Password: twitter ]
+00:59:01 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:59:01 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:59:01 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000017B09DD19C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:59:01 15/12/2023 [UsuarioDAO.py:49] 🐛 : usuario insertado: 1
+00:59:01 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+00:59:01 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000017B09DD19C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:59:01 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+00:59:01 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+00:59:01 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000017B09DD19C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+00:59:01 15/12/2023 [UsuarioDAO.py:64] 🐛 : Usuario id: 1 [ Nombre de usuario: hematocritico, Password: twitter ]
+01:05:54 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:05:54 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x000002137AE77B90>
+01:05:54 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000002137C9958B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:05:54 15/12/2023 [UsuarioDAO.py:36] 🐛 : Usuario actualizado: Usuario id: 1 [ Nombre de usuario: EstoyAvisando, Password: twitteresx ]
+01:05:54 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:05:54 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:05:54 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x000002137C9958B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:05:54 15/12/2023 [UsuarioDAO.py:57] 🐛 : Usuario actualizado: 1
+01:05:54 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:05:54 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x000002137C9958B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:05:54 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:05:54 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:05:54 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x000002137C9958B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:05:54 15/12/2023 [UsuarioDAO.py:67] 🐛 : Usuario id: 1 [ Nombre de usuario: EstoyAvisando, Password: twitteresx ]
+01:06:18 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:06:18 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000021604E6EE70>
+01:06:18 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000021604E698B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:06:18 15/12/2023 [UsuarioDAO.py:44] 🐛 : Usuario eliminado: Usuario id: 1 [ Nombre de usuario: None, Password: None ]
+01:06:18 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:06:18 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:06:18 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000021604E698B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:06:18 15/12/2023 [UsuarioDAO.py:62] 🐛 : Usuario eliminado: 1
+01:06:18 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:06:18 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000021604E698B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:06:18 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:06:18 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:06:18 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000021604E698B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:12:53 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:12:53 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x0000020FAA4D61E0>
+01:12:53 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000020FAC0AD7A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:12:53 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:12:53 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:12:53 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000020FAC0AD7A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:14:07 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:14:07 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x0000020FAC0AD7A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:14:07 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:14:07 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:14:07 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x0000020FAC0AD7A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:14:07 15/12/2023 [menu_app_usuario.py:18] 🌐 : Usuario id: 1 [ Nombre de usuario: hematocritico, Password: twitter ]
+01:16:07 15/12/2023 [menu_app_usuario.py:24] 🌐 : Fin de la aplicación.
+01:28:40 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:28:40 15/12/2023 [Conexion.py:27] 🐛 : El pool se creó correctamente: <psycopg2.pool.SimpleConnectionPool object at 0x00000259E72A7470>
+01:28:40 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:28:40 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:28:40 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:28:40 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:28:40 15/12/2023 [menu_app_usuario.py:19] 🌐 : Usuario id: 1 [ Nombre de usuario: hematocritico, Password: twitter ]
+01:29:03 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:29:03 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:03 15/12/2023 [UsuarioDAO.py:28] 🐛 : Usuario insertado: Usuario id: None [ Nombre de usuario: mlara, Password: 567 ]
+01:29:03 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:29:03 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:29:03 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:03 15/12/2023 [menu_app_usuario.py:26] 🌐 : Usuario insertado: 1
+01:29:05 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:29:05 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:05 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:29:05 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:29:05 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:05 15/12/2023 [menu_app_usuario.py:19] 🌐 : Usuario id: 1 [ Nombre de usuario: hematocritico, Password: twitter ]
+01:29:05 15/12/2023 [menu_app_usuario.py:19] 🌐 : Usuario id: 2 [ Nombre de usuario: mlara, Password: 567 ]
+01:29:35 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:29:35 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:36 15/12/2023 [UsuarioDAO.py:36] 🐛 : Usuario actualizado: Usuario id: 2 [ Nombre de usuario: clara, Password: 1234 ]
+01:29:36 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:29:36 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:29:36 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:36 15/12/2023 [menu_app_usuario.py:36] 🌐 : Usuario actualizado: 1
+01:29:38 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:29:38 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:38 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:29:38 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:29:38 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:38 15/12/2023 [menu_app_usuario.py:19] 🌐 : Usuario id: 1 [ Nombre de usuario: hematocritico, Password: twitter ]
+01:29:38 15/12/2023 [menu_app_usuario.py:19] 🌐 : Usuario id: 2 [ Nombre de usuario: clara, Password: 1234 ]
+01:29:45 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:29:45 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:45 15/12/2023 [UsuarioDAO.py:44] 🐛 : Usuario eliminado: Usuario id: 2 [ Nombre de usuario: None, Password: None ]
+01:29:45 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:29:45 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:29:45 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:45 15/12/2023 [menu_app_usuario.py:44] 🌐 : Usuario eliminado: 1
+01:29:47 15/12/2023 [CursorDelPool.py:10] 🐛 : Inicio del método with __enter__
+01:29:47 15/12/2023 [Conexion.py:38] 🐛 : Conexion obtenida del pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:47 15/12/2023 [CursorDelPool.py:16] 🐛 : Se ejecuta método __exit__
+01:29:47 15/12/2023 [CursorDelPool.py:22] 🐛 : Commit de la transacción
+01:29:47 15/12/2023 [Conexion.py:44] 🐛 : Conexión regresada al pool: <connection object at 0x00000259E8EB98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5434', closed: 0>
+01:29:47 15/12/2023 [menu_app_usuario.py:19] 🌐 : Usuario id: 1 [ Nombre de usuario: hematocritico, Password: twitter ]
+01:29:50 15/12/2023 [menu_app_usuario.py:50] 🌐 : Fin de la aplicación.
