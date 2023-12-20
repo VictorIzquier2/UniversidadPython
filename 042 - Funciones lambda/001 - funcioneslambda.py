@@ -26,4 +26,6 @@ print(f'Resultado argumentos por default: {mi_funcion_lambda()}')
 mi_funcion_lambda = lambda *args, **kwargs: len(args) + len(kwargs)
 print(f'Resultado argumentos variables: {mi_funcion_lambda(1,2,3, a=4, b=5, c=6)}')
 
-
+# Funciones lambda con argumentos, argumentos variables y valores por default
+mi_funcion_lambda = lambda a, b, c=3, *args, **kwargs: a+b+c+len(args)+len(kwargs)
+print(f'resultado de la función lambda: {mi_funcion_lambda(1,2,4,5,6,7,z=8, y=9)}')
