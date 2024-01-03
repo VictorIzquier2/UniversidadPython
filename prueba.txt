@@ -1,3 +1,2 @@
-Agregamos información al archivo
-Escribimos algo más
-Adios
+prueba desde decorador
+adios

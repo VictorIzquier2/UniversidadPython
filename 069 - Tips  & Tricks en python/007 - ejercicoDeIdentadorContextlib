@@ -1,0 +1,48 @@
+from contextlib import contextmanager
+
+
+# Manejo de Context Manager en Clases
+# 1. Implementando el protocolo con las funciones(__enter__) y (__exit__)
+# 2. Utilizando la librería de contextlib
+
+# Opción 2
+
+# Este metodo es un generador, en primer lugar adquiere el recurso
+# Luego suspende temporalmente la ejecución al utilizar yield
+# Cuando termina de ser utilizado este método, regresa a la ejecución y cierra el recurso que se ha utilizado
+@contextmanager
+def manejador_archivos(nombre):
+  try:
+    archivo = open(nombre, 'w', encoding='utf-8')
+    yield archivo
+  finally:
+    archivo.close()
+    
+class Indentador():
+  def __init__(self):
+    self.nivel = 0
+    
+  @contextmanager
+  def indentador(self):
+    try:
+      self.nivel += 1
+      yield self
+    finally:
+      self.nivel -= 1
+      
+  def imprimir(self, texto):
+    print('   ' * self.nivel + texto)
+    
+    
+if __name__ == '__main__':
+  # Prueba de Identador
+  objeto = Indentador()
+  with objeto.indentador():
+    objeto.imprimir('primer nivel')
+    with objeto.indentador():
+      objeto.imprimir('segundo nivel')
+      objeto.imprimir('continúa el segundo nivel...')
+      with objeto.indentador():
+        objeto.imprimir('tercer nivel')
+        objeto.imprimir('continúa el tercer nivel...')
+    objeto.imprimir('fin primer nivel')
