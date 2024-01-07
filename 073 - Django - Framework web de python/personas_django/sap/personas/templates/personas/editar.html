@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Editar Persona</title>
+  </head>
+  <body>
+    <h1>Editar Persona</h1>
+    <form method="POST">
+      {{formaPersona}}
+      <button type="submit">Actualizar</button>
+      {% csrf_token %}
+    </form>
+  </body>
+</html>

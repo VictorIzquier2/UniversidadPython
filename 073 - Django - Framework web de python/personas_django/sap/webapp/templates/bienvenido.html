@@ -11,17 +11,63 @@
       <a href="nueva_persona">Agregar Persona</a>
     </div>
     <div>
-      <ul>
-        {%for persona in personas%}
-          <li>
-            Persona {{persona.id}}: 
-            {{persona.nombre}} 
-            {{persona.apellido}} 
-            {{persona.email}}
-            <a href="detalle_persona/{{persona.id}}">Ver detalle</a>
-          </li>
-        {% endfor %}
-      </ul>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for persona in personas %}
+          <tr>
+            <td>{{persona.id}}</td>
+            <td>{{persona.nombre}} {{persona.apellido}}</td>
+            <td>{{persona.email}}</td>
+            <td><a href="detalle_persona/{{persona.id}}">Ver</a></td>
+            <td><a href="editar_persona/{{persona.id}}">Editar</a></td>
+            <td><a href="eliminar_persona/{{persona.id}}">Eliminar</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <div>Número de domicilios: {{no_domicilios}}</div>
+    <div>
+      <a href="nuevo_domicilio">Agregar Domicilio</a>
+    </div>
+    <div>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Calle</th>
+            <th>Nº Calle</th>
+            <th>Pais</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for domicilio in domicilios %}
+            <tr>
+              <td>{{domicilio.id}}</td>
+              <td>{{domicilio.calle}}</td>
+              <td>{{domicilio.no_calle}}</td>
+              <td>{{domicilio.pais}}</td>
+              <td><a href="detalle_domicilio/{{domicilio.id}}">Ver</a></td>
+              <td><a href="editar_domicilio/{{domicilio.id}}">Editar</a></td>
+              <td><a href="eliminar_domicilio/{{domicilio.id}}">Eliminar</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
