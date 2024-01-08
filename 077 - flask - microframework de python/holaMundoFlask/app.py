@@ -40,5 +40,14 @@ def salir():
 def pagina_no_encontrada(error):
   return (render_template('error404.html', error=error), 404)
 
+###############################################################
+
+# REST Representational state transfer
+@app.route('/api/mostrar/<nombre>', methods=['GET', 'POST'])
+def mostrar_json(nombre):
+  valores = {'nombre': nombre, 'metodo_http': request.method}
+  
+  return valores
+
 if __name__=='__main__':
     app.run(debug=True)
