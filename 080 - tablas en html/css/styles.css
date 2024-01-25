@@ -1,0 +1,35 @@
+
+
+body{
+ font-family: 'Georgia', serif; 
+}
+caption{
+  color: #e63946;
+  font-family: 'Trocchi', serif;
+  font-size: 2em;
+  line-height: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+table, th, td{
+  border: 1px solid black;
+  /* border-collapse: collapse; */
+  border-spacing: .3em;
+  padding: .3em;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+tr:nth-child(odd){
+  background-color: #f1faee;
+}
+tr:nth-child(even){
+  background-color: #a8dadc;
+}
