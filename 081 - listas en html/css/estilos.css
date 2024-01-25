@@ -1,0 +1,22 @@
+
+
+ol{
+  list-style: none;
+  /* Reinicia contador */
+  counter-reset: contador;
+}
+
+ol li{
+  /* Aumenta contador */  
+  counter-increment: contador;
+}
+
+ol li::before{
+  /* Declara contador */
+  content: 'Curso ' counter(contador) '. ';
+  color: midnightblue
+}
+
+ol li::after{
+  content: '.'
+}
