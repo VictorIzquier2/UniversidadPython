@@ -1,0 +1,27 @@
+h1{
+  text-align: center;
+  color: crimson;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+div.contenedor{
+  position: relative;
+  border: .2em solid rgb(128, 128, 128, .125);
+  width: 30vw;
+  margin: auto;
+}
+.imagen{
+  width: 100%;
+  opacity: .25;
+}
+.centro{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
