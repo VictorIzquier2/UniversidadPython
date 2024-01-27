@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+  color: #e63946
+}
+div.contenedor{
+  width: 30%;
+  height: 20%;
+  margin: auto;
+  border: 3px solid #a8dadc;
+  padding: 1em;
+  color: #457b9d;
+  margin: 1em auto;
+  transition: all .3s ease-out;
+  text-align: center;
+}
+div.contenedor p::selection{
+  color:red;
+  background-color: yellow;
+}
+div.contenedor p::first-line{
+  font-variant: small-caps;
+  color: red;
+}
+div.contenedor p::first-letter{
+  font-size: 1.5em;
+}
+div.contenedor p::before{
+  content: "- ";
+}
+div.contenedor p::after{
+  content: " -";
+  content: url(https://www.globalmentoring.com.mx/imagenes/html5.png)
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universidad de CSS</title>
+  <link rel="stylesheet" href="css/estilos.css" type="text/css" />
+</head>
+<body>
+  <h1>Selectores combinados en CSS</h1>
+  <div class="contenedor descendiente">
+    Selectores descendientes (en cualquier nivel interno)
+    <p>Primer renglón</p>
+    <p>Segundo renglón</p>
+    <section>
+      <p>Tercer renglón</p>
+    </section>
+  </div>
+
+  <div class="contenedor hijo">
+    Selectores hijo (child)
+    <p>Primer renglón</p>
+    <p>Segundo renglón</p>
+    <section>
+      <p>Tercer renglón</p>
+    </section>
+  </div>
+
+  <div class="contenedor adyascente">
+    Selector adyascente:
+    <p>Primer renglón</p>
+  </div>
+  <p>Segundo renglón</p>
+
+  <div class="contenedor hermano">
+    Selector hermano (sibling):
+    <p>Primer renglón</p>
+  </div>
+  <p>Segundo renglón</p>
+  <p>Tercer renglón</p>
+
+</body>
+</html>
