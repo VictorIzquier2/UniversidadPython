@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+  text-shadow: 2px 2px 6px #a8dadc;
+  color: #e63046;
+  font-family: Tahoma;
+}
+
+div.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  height: 25em;
+  align-items: center;
+  align-content: center;
+
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+
+}
+div.contenedor > p{
+  border: 1px solid cornflowerblue;
+  background-color: whitesmoke;
+  margin: 1em;
+  padding: .6em;
+  color: midnightblue;
+  font-family: Tahoma;
+}
+
